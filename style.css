@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.swim-lanes {
+    min-height: 60vh;
+}
+
+.task-card {
+    margin: 0.5rem auto;
+    padding: 1rem;
+}
+
+.task-card:hover {
+    cursor: grab;
+}
+
+.lane {
+    display: flex;
+    flex-direction: column;
+}
